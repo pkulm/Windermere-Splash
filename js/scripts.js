@@ -4,6 +4,7 @@ $(document).ready(function() {
 		thumbnails: false
 	});
 	
+	
 	/*
 var $window = $(window);
         function checkWidth() {
@@ -20,5 +21,5 @@ var $window = $(window);
     checkWidth();
     $(window).resize(checkWidth);
 */
-
+	$('body').ttwVideoPlayer(myPlaylist, {options});
 });
