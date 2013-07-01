@@ -14,132 +14,13 @@ DELETE STYLING ON THIS PAGE BEFORE STARTING YOUR OWN WEBSITE.
 INCLUDED STYLING IS JUST FOR DEMO PAGE!
 
 */
-
-body {
-	background: #f5f2ee;
+header  {
+	background:#003;
 }
 
-header {
-	background: white;
-	position: fixed;
-	z-index: 100;
-	padding-top: 10px;
-	padding-bottom: 10px;
+h2 {
+	color: #fff;
 }
-
-#main .column-box {
-	min-height: 50px;
-}
-
-#description {
-	padding-top: 260px;
-	font-size: 1.3em;
-}
-
-#slideshoww, #framework, #structure, #text, #buttons, #images, #navigation {
-	padding-top: 120px;
-}
-
-.column-example {
-	color: white;
-	font-size: 1em;
-	margin-bottom: 10px;
-	border-radius: 10px;
-	padding: 10px;
-	background: #964652;
-}
-
-
-.info {
-	padding: 10px;
-	margin: 20px 0 20px 0;
-	background: #e1e1e1;
-	border-radius: 10px;
-}
-
-.download {
-	font-family: 'BenchNine', sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: .15em;
-	font-size: 1.5em;
-	display: block;
-	background: #666;
-	color: white;
-	padding: 10px;
-	border-radius: 10px;
-	width: 180px;
-	text-align: center;
-	float: right;
-}
-
-.download:link {
-	color: white;
-}
-
-.download:hover {
-	background: #964652;
-}
-
-.code-block {
-	background: #ffffff;
-	border-radius: 10px;
-	padding: 20px;
-	margin: 10px;
-}
-
-.codered {
-	color: red;
-	font-weight: bold;
-}
-
-.sep {
-	margin-top: 100px;
-	border: 3px solid #964652;
-	height: 0px;
-}
-
-#nav ul li {
-	margin-right: 25px;
-	margin-top: 10px;
-}
-
-#nav ul li a:link, #nav ul li a:visited {
-	font-family: 'BenchNine', sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: .15em;
-	border-radius: 10px;
-	color: white;
-	background: #964652;
-	padding: 10px;
-	text-align: center;
-}
-
-#nav ul li a:hover, nav ul li a:active {
-	color: #964652;
-	background: white;
-}
-
-h1,h2,h3,h4,h5 {
-	font-family: 'BenchNine', sans-serif;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: .15em;
-}
-
-footer .column-box {
-	border-radius: 10px;
-	color: white;
-	background: #333;
-	margin-top: 100px;
-	padding: 20px;
-}
-
-footer .column-box a {
-	color: white;
-}
-
 /**************************************************************/
 /**************************************************************/
 /**************************************************************/
