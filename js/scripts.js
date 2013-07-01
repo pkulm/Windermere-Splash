@@ -21,5 +21,4 @@ var $window = $(window);
     checkWidth();
     $(window).resize(checkWidth);
 */
-	$('body').ttwVideoPlayer(myPlaylist, {options});
 });
