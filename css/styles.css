@@ -16,6 +16,7 @@ INCLUDED STYLING IS JUST FOR DEMO PAGE!
 */
 header  {
 	background:#003;
+	height: 61px;
 }
 
 h2 {
@@ -23,7 +24,7 @@ h2 {
 }
 
 #first {
-	margin-top: 50px;
+	margin-top: 38px;
 }
 
 .video {
