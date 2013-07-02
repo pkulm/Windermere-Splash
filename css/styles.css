@@ -14,25 +14,58 @@ DELETE STYLING ON THIS PAGE BEFORE STARTING YOUR OWN WEBSITE.
 INCLUDED STYLING IS JUST FOR DEMO PAGE!
 
 */
-header  {
-	background:#003;
+
+#logo_container {
+float: left;
+width: 154px;
+margin-top: 3px;
+}
+
+body {
+	font-family: arial, sans-serif;
+	background: #f1f1f1;
+}
+
+#banner  {
+	background-image: url('../images/banner2.png');
+	background-repeat: repeat-x;
 	height: 61px;
 }
 
-h2 {
+#middle{
+	background: #fff;
+	box-shadow: 0px 0px 6px #888;
+}
+
+h1{
+	margin-left: 343px;
+}
+
+p {
 	color: #fff;
+	font-size: 1.7em;
+	margin-top: 16px;
+	margin-left: 50px;
 }
 
-#first {
-	margin-top: 38px;
+#first{
+	padding-top: 25px;
 }
 
-.video {
-	background: blue;
+.column60{
+	width: 58%;
 }
 
-.bio {
-	background: green;	
+.column-box{
+	margin: 0;
+}
+
+.row{
+	margin-bottom: 50px;
+}
+
+.vid{
+	margin-left: 15px;
 }
 
 
