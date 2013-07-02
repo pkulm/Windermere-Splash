@@ -167,7 +167,31 @@ Custom Attributes if required for each device layout.
 	
 }
 @media (min-width: 0px) and (max-width: 479px) {
-
+	h1{
+		font-size: 1.8em;
+		align: center;
+	}
+	
+	p{
+		font-size: 1em;
+		align: right;
+		padding-left: 10px;
+	}
+	
+	#logo_container{
+		margin-left: 10px;
+	}
+	
+	.vid{
+		width: 415px;
+		height: 315px;
+	}
+	
+	.info{
+		margin: 20px 22px 0 15px;
+		padding: 0;
+	}
+	
 }
 
 
