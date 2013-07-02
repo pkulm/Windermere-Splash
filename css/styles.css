@@ -99,167 +99,6 @@ p {
 	border-bottom: dotted #999 1px;
 }
 
-/* FOOTER */
-
-#footer_area {
-	margin-top:-30px;
-	padding-top:30px;
-	background:#0f2b5b;
-	border-top:1px solid #FFF;
-	z-index:4;
-}
-	
-#footer .content {
-	position:relative;
-	height:auto;
-	padding: 20px 0 10px 0;
-	clear: both;
-	margin: 0 auto;
-	font-size: 11px;
-	background-color: transparent; 
-	color: #0f2b5b;
-	}
-
-#footer .widget {
-	 width:auto;
-	 margin: 0;
-	 padding: 0;
-	 float: left;
-	 color: #FFF;
-	 border:0;
-	}
-
-#footer .widget .w-header {
-	margin: 0 0 10px 0;
-	font-size: 1.4em;
-	margin:0;
-	border: 0;
-	color: #828282;
-	background:none; 
-	}
-
-#footer .widget .w-content {
-	position:relative;
-	width: auto;
-	background:none;
-	padding:10px 0;
-	margin:0;
-	}
-
-#footer .widget-site-identity { 
-	font-size: 12px;
-	text-align: left;
-	margin:0 40px 0 0;
-	padding:0 40px 10px 40px;
-	border-right:1px dotted #FFF;
-	}
-
-#footer .widget-site-identity .logo {
-	position:relative;
-	text-align:center;
-	margin:-10px auto 10px auto;
-	padding:0;
-}
-
-#footer .widget-site-identity .name {
-	position:relative;
-	text-align:center;
-	font-size:1.4em;
-	line-height:1.3em;
-	margin:auto;
-	padding:0;
-}
-
-#footer .widget-site-identity .info {
-	position:relative;
-	text-align:center;
-	font-size:1em;
-	line-height:1em;
-	margin:auto;
-	padding:0;
-}
-
-#footer .widget-site-identity .info li {
-	line-height:1.2em;
-}
-
-#footer .widget-site-identity .info li.phone, #footer .widget-site-identity .info li.fax {
-	float:left;
-	padding:0 5px 0 5px;
-}
-
-#footer .widget-site-identity .info li.email {
-	clear:both;
-}
-
-#footer .widget-site-identity .info li span {
-	padding:0 5px 0 0;
-	font-weight: 700;
-}
-
-#footer .widget-site-identity .info li a {
-	color:#ccc;
-}
-
-#footer .widget-site-identity .info li a:hover {
-	color:#fff;
-}
-
-#footer .widget-site-links { 
-	font-size: 12px;
-	text-align: left;
-	width:127px !important;
-	margin-right:15px;
-	float:left;
-	}
-
-#footer .widget-site-links ul {
-	list-style: none;
-	margin:0;
-	padding:0;
-	}
-
-#footer .widget-site-links li {
-	margin:0;
-	}
-
-#footer .widget-site-links li a:link, #footer .widget-site-links li a:visited  {
-	display: block;
-	color: #FFF;
-	text-decoration: none;
-	}
-
-#footer .widget-site-links li a:hover  {
-	color: #CCC;
-	text-decoration: none;
-	}
-
-#footer .widget form p {
-	clear: left;
-	margin: 0;
-	padding: 0;
-	padding-top: 5px;
-	}
-
-#footer div.alpha {
-	}
-	
-#footer div.omega {
-	width:auto
-	}
-
-#footer .widget-site-identity .logo img {
-    display: none;
-}
-
-#footer .widget-site-identity .logo {
-    background: url('../images/logo_windermere_light.png') no-repeat scroll 0 0 transparent;
-    height: 60px;
-    margin: -10px auto 10px 15px;
-    padding: 0;
-    position: relative;
-    text-align: center;
-}
 
 /**************************************************************/
 /**************************************************************/
@@ -294,10 +133,38 @@ Custom Attributes if required for each device layout.
 
 
 @media (min-width: 768px) and (max-width: 979px) {
-
+	.vid{
+		margin-left: 15px;
+		width: 460px;
+		height: 290px;
+	}
 }
 @media (min-width: 480px) and (max-width: 767px) {
+	.vid{
+		margin-left: 100px;
+		width: 525px;
+		height: 315px;
+	}
 
+	.info{
+		margin: 20px 123px 0 100px;
+		padding: 0;
+	}
+	
+	.row:nth-child(n+2){
+		padding: 10px;
+		margin-top: 20px;
+	}
+	
+	h1{
+		font-size: 2em;
+		align: center;
+	}
+	
+	#logo_container{
+		margin-left: 20px;
+	}
+	
 }
 @media (min-width: 0px) and (max-width: 479px) {
 
