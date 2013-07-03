@@ -85,6 +85,11 @@ p {
 	margin-bottom: 50px;
 }
 
+#center{
+	margin-bottom: 0;
+	margin-left: 70px;
+}
+
 .vid{
 	margin-left: 15px;
 }
@@ -109,12 +114,12 @@ p {
 	margin-top: -3px;
 }
 
-#bottom{
+/*#bottom{
 	width: 950px;
 	margin: 0 auto;
 	padding: 0px;
 }
-
+*/
 
 a:link{
 	color: #CCC;
@@ -154,8 +159,6 @@ footer ul li:nth-child(2) a {
 }
 
 .footer25{
-	float: left;
-	display: inline;
 	padding-right: 5px;
 	padding-bottom: 17px;
 	margin-right: 5px;
@@ -163,8 +166,7 @@ footer ul li:nth-child(2) a {
 }
 
 .footer75{
-	float: left;
-	display: inline;
+	width: 70%;
 }
 
 #disclaimer{
@@ -239,6 +241,26 @@ Custom Attributes if required for each device layout.
 		margin-left: 20px;
 	}
 	
+	#flogo{
+		margin-left: -20px;
+	}
+	
+	.footer25{
+		padding-right: 33px;
+	}
+	
+	.footer75{
+		margin-left: -20px;
+	}
+	
+	#tagline>p{
+		font-size: 1em;
+	}
+	
+	#tagline>#sub{
+		margin-left: -25px;
+	}
+	
 }
 @media (min-width: 0px) and (max-width: 479px) {
 	h1{
@@ -265,6 +287,37 @@ Custom Attributes if required for each device layout.
 		margin: 20px 22px 0 15px;
 		padding: 0;
 	}
+	
+	#flogo{
+		margin-left: -60px;
+	}
+	
+	.footer25{
+		padding-right: 33px;
+	}
+	
+	.footer75{
+		margin-left: -20px;
+	}
+	
+	#tagline>p{
+		font-size: 1em;
+	}
+	
+	#tagline>#sub{
+		margin-left: -25px;
+	}
+	
+	#about,
+	#brokers,
+	#real-estate,
+	#popular-searches{
+		float: left;
+		display: inline;
+		margin-top: 20px;
+	}
+	
+	
 	
 }
 
