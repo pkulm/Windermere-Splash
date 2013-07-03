@@ -19,6 +19,7 @@ INCLUDED STYLING IS JUST FOR DEMO PAGE!
 float: left;
 width: 154px;
 margin-top: 3px;
+margin-left: 5px;
 }
 
 body {
@@ -52,14 +53,14 @@ li:nth-child(n+3){
 }
 
 p {
-	color: #fff;
+	color: #CCC;
 	font-size: 1.5em;
 	margin-top: 12px;
 	margin-left: 50px;
 }
 
 #sub{
-	color: #fff;
+	color: #CCC;
 	font-size: 1em;
 	margin-left: 52px;
 	margin-top: -2px;
@@ -105,6 +106,7 @@ p {
 #popular-searches{
 	float: left;
 	display: inline;
+	margin-top: -3px;
 }
 
 #bottom{
@@ -113,14 +115,64 @@ p {
 	padding: 0px;
 }
 
+
+a:link{
+	color: #CCC;
+}
+
+h4{
+	color: #666;
+	margin-bottom: 5px;
+}
+
 footer {
 	margin-top: -30px;
 	padding-top: 30px;
 	background-color: #0f2b5b;
 	min-height: 100px;
 	border-top: 1px solid #FFF;
-	z-index: 4;
 }
+
+footer ul li:nth-child(2) a { 
+    margin-top: 20px;
+}
+
+#flogo{
+	float: left;
+	margin-bottom: 10px;
+}
+
+#tagline>p{
+	display: block;
+	margin-left: -25px;
+	font-size: 1.3em;
+}
+
+#tagline>#sub{
+	font-size: 1em;
+	margin-left: -10px;
+}
+
+.footer25{
+	float: left;
+	display: inline;
+	padding-right: 5px;
+	padding-bottom: 17px;
+	margin-right: 5px;
+	border-right: dotted #999 1px;
+}
+
+.footer75{
+	float: left;
+	display: inline;
+}
+
+#disclaimer{
+	margin-top: 30px;
+	font-size: 0.75em;
+	color: #fff;
+}
+
 
 /**************************************************************/
 /**************************************************************/
