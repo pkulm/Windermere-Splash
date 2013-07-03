@@ -106,6 +106,22 @@ p {
 	float: left;
 	display: inline;
 }
+
+#bottom{
+	width: 950px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+footer {
+	margin-top: -30px;
+	padding-top: 30px;
+	background-color: #0f2b5b;
+	min-height: 100px;
+	border-top: 1px solid #FFF;
+	z-index: 4;
+}
+
 /**************************************************************/
 /**************************************************************/
 /**************************************************************/
